@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login screen/SignUphref",
+      "brokenLocator": "#form1 \u003e main \u003e section \u003e div \u003e div \u003e div \u003e div \u003e div \u003e div \u003e div:nth-child(4) \u003e p \u003e a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#form1 \u003e main \u003e section \u003e div \u003e div \u003e div \u003e div \u003e div \u003e div \u003e div:nth-child(4) \u003e p \u003e a",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login screen/SignUphref_SMART_LOCATOR.png"
+    }
+  ]
+}
