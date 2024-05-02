@@ -25,7 +25,7 @@ WebUI.navigateToUrl('https://www.engolearn.com/default.aspx')
 WebUI.maximizeWindow()
 
 'Close announcement'
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Login screen/button_Announcement_btn-close'))
 
 'Click Sign In'
 WebUI.click(findTestObject('Object Repository/Login screen/a_Sign in (1)'))
@@ -48,5 +48,5 @@ WebUI.sendKeys(findTestObject('Object Repository/Login screen/input_Login Passwo
 WebUI.delay(5)
 
 'Click Sign In button'
-WebUI.click(findTestObject('Object Repository/Login screen/input_Security Code_ctl00ContentPlaceHolder_179091 (1)'))
+WebUI.click(findTestObject('Object Repository/Login screen/SignIn_button'))
 
