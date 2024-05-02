@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>fb8f9198-c165-4234-a349-566fe950926c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Customer/Login/Verify login page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -42,5 +42,12 @@
          <value></value>
          <variableId>1f8f2f3f-061d-43c8-b845-f162705d75a2</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b63ce906-068c-4d51-91fa-a3c96b795ee7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Customer/Login/Successfully Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,36 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Login screen/Profile_button'))
 
-'Navigate to Engo'
-WebUI.navigateToUrl('https://www.engolearn.com/default.aspx')
+WebUI.click(findTestObject('Login screen/Logout_button'))
 
-WebUI.maximizeWindow()
-
-'Close announcement'
-WebUI.click(findTestObject('Object Repository/Login screen/button_Announcement_btn-close'))
-
-'Click Sign In'
-WebUI.click(findTestObject('Object Repository/Login screen/a_Sign in (1)'))
-
-'Enter email'
-WebUI.setText(findTestObject('Object Repository/Login screen/input_Email_ctl00ContentPlaceHolder1txt_Username'), Email)
-
-'Click tab to enter password'
-WebUI.sendKeys(findTestObject('Object Repository/Login screen/input_Email_ctl00ContentPlaceHolder1txt_Username'), Keys.chord(
-        Keys.TAB))
-
-//WebUI.sendKeys(findTestObject('Input'), Keys.chord('Text String',Keys.ENTER,Keys.TAB))
-'Enter password'
-WebUI.setText(findTestObject('Object Repository/Login screen/input_Login Password_ctl00ContentPlaceHolde_f25a8a'), Password)
-
-'Click tab to enter security code'
-WebUI.sendKeys(findTestObject('Object Repository/Login screen/input_Login Password_ctl00ContentPlaceHolde_f25a8a'), Keys.chord(
-        Keys.TAB))
-
-WebUI.delay(5)
-
-'Click Sign In button'
-WebUI.click(findTestObject('Object Repository/Login screen/SignIn_button'))
+WebUI.closeBrowser()
 
