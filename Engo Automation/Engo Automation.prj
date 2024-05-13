@@ -11,7 +11,11 @@
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
    <projectFileLocation>C:\Users\Nur Afiqah Aina\Katalon Studio\Engo\Engo Automation\Engo Automation.prj</projectFileLocation>
+=======
+   <projectFileLocation>C:\Users\Hariz Amsyar\Katalon Studio\Engo\Engo Automation\Engo Automation.prj</projectFileLocation>
+>>>>>>> 80715f72536c82e9be6171a784564b2b9b4dbb27
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

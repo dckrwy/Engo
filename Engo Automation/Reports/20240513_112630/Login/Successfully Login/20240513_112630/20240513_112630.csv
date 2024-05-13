@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Successfully Login,Chrome 124.0.0.0,,,13-05-2024 11:26:35,13-05-2024 11:27:05,29.473s,FAILED
+,,,,,,,
+Test Cases/Customer/Login/Successfully Login,Chrome 124.0.0.0,,,13-05-2024 11:26:36,13-05-2024 11:26:56,20.798s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,13-05-2024 11:26:36,13-05-2024 11:26:38,1.708s,PASSED
+"navigateToUrl(""https://www.engolearn.com/default.aspx"")",Chrome 124.0.0.0,Navigate to Engo,,13-05-2024 11:26:38,13-05-2024 11:26:45,7.044s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,13-05-2024 11:26:45,13-05-2024 11:26:45,0.150s,PASSED
+"click(findTestObject(""Object Repository/Login screen/button_Announcement_btn-close""))",Chrome 124.0.0.0,Close announcement,,13-05-2024 11:26:45,13-05-2024 11:26:46,0.632s,PASSED
+"click(findTestObject(""Object Repository/Login screen/a_Sign in (1)""))",Chrome 124.0.0.0,Click Sign In,,13-05-2024 11:26:46,13-05-2024 11:26:48,2.783s,PASSED
+"setText(findTestObject(""Object Repository/Login screen/input_Email_ctl00ContentPlaceHolder1txt_Username""), Email)",Chrome 124.0.0.0,Enter email,,13-05-2024 11:26:48,13-05-2024 11:26:50,1.248s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login screen/input_Email_ctl00ContentPlaceHolder1txt_Username""), Keys.chord(TAB))",Chrome 124.0.0.0,Click tab to enter password,,13-05-2024 11:26:50,13-05-2024 11:26:50,0.363s,PASSED
+"setText(findTestObject(""Object Repository/Login screen/input_Login Password_ctl00ContentPlaceHolde_f25a8a""), Password)",Chrome 124.0.0.0,Enter password,,13-05-2024 11:26:50,13-05-2024 11:26:51,0.812s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login screen/input_Login Password_ctl00ContentPlaceHolde_f25a8a""), Keys.chord(TAB))",Chrome 124.0.0.0,Click tab to enter security code,,13-05-2024 11:26:51,13-05-2024 11:26:51,0.306s,PASSED
+delay(5),Chrome 124.0.0.0,,,13-05-2024 11:26:51,13-05-2024 11:26:56,5.049s,PASSED
+"click(findTestObject(""Object Repository/Login screen/SignIn_button""))",Chrome 124.0.0.0,Click Sign In button,,13-05-2024 11:26:56,13-05-2024 11:26:56,0.387s,PASSED
+,,,,,,,
+Test Cases/Customer/Login/Successfully Logout,Chrome 124.0.0.0,,,13-05-2024 11:27:05,13-05-2024 11:27:05,0.062s,FAILED
+"click(findTestObject(""Login screen/Profile_button""))",Chrome 124.0.0.0,,,13-05-2024 11:27:05,13-05-2024 11:27:05,0.043s,FAILED
