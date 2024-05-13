@@ -6,12 +6,12 @@
    <UUID>e9331a20-ba12-4b43-a054-ef54a76c61ba</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>9.4.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Nur Afiqah Aina\Katalon Studio\Engo\Engo\Engo Automation\Engo Automation.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\Nur Afiqah Aina\Katalon Studio\Engo\Engo Automation\Engo Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

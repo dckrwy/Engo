@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/Login screen/button_Announcement_b
 WebUI.click(findTestObject('Object Repository/Login screen/a_Sign in (1)'))
 
 'Enter email'
-WebUI.setText(findTestObject('Object Repository/Login screen/input_Email_ctl00ContentPlaceHolder1txt_Username'), Email)
+WebUI.setText(findTestObject('Object Repository/Login screen/input_Email_ctl00ContentPlaceHolder1txt_Username'), 'pomex43968@locawin.com')
 
 'Click tab to enter password'
 WebUI.sendKeys(findTestObject('Object Repository/Login screen/input_Email_ctl00ContentPlaceHolder1txt_Username'), Keys.chord(
@@ -39,7 +39,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Login screen/input_Email_ctl00C
 
 //WebUI.sendKeys(findTestObject('Input'), Keys.chord('Text String',Keys.ENTER,Keys.TAB))
 'Enter password'
-WebUI.setText(findTestObject('Object Repository/Login screen/input_Login Password_ctl00ContentPlaceHolde_f25a8a'), Password)
+WebUI.setText(findTestObject('Object Repository/Login screen/input_Login Password_ctl00ContentPlaceHolde_f25a8a'), 'demo123')
 
 'Click tab to enter security code'
 WebUI.sendKeys(findTestObject('Object Repository/Login screen/input_Login Password_ctl00ContentPlaceHolde_f25a8a'), Keys.chord(
